@@ -1,0 +1,77 @@
+
+.slide-social {
+    background: rgba(0, 0, 0, 0.05) none repeat scroll 0 0;
+    display: inline-block;
+    height: 3em;
+    margin: 0 0 8px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slide-social .ss-button {
+    right:50%;
+    position: absolute;
+    top: 1em;
+}
+.ss-icon {
+    height: 100%;
+    padding-top: 1em;
+    text-align: center;
+    width: 25%;
+}
+.ss-icon i {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    height: 1em;
+}
+.ss-slide {
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    height: 100%;
+    line-height: 3em;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 0;
+    width: 75%;
+}
+.facebook-bg {
+    background: #3b5998 none repeat scroll 0 0;
+}
+.twitter-bg {
+    background: #00acee none repeat scroll 0 0;
+}
+.google-plus-bg {
+    background: #db4a39 none repeat scroll 0 0;
+}
+.linkedin-bg {
+    background: #0e76a8 none repeat scroll 0 0;
+}
+.pinterest-bg {
+    background: #8f23c8 none repeat scroll 0 0;
+}
+.tumblr-bg {
+    background: #f7050f none repeat scroll 0 0;
+}
+.slide-social:hover .ss-slide, .slide-social .ss-slide:hover {
+    transform: translate(-101%  , 0px);
+}
+.slide-social:hover .ss-icon i {
+    border-left-color: transparent;
+}
+.ss-slide {
+    transition: all 0.2s ease-in-out 0s;
+}
+.slide-social:hover .ss-slide {
+}
+@media only screen and (max-width: 30em) {
+.slide-social {
+    width: 100%;
+}
+.slide-social .ss-button {
+    right: 50%;
+}
+}

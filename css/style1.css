@@ -1,0 +1,149 @@
+body {
+    font-family: "JF Flat Regular";
+    background: url(../img/paper_fibers.png);
+}
+
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../fonts/JF-Flat-regular.eot');
+    src: url('../fonts/JF-Flat-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'), url('../fonts/JF-Flat-regular.woff') format('woff'), url('../fonts/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    margin: 0 0 50px 0;
+    font-size: 30px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+    background: #87e0fd;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0', GradientType=0);
+    /* IE6-9 */
+    border-bottom: 5px solid #ddd;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+
+.hed-h4 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    color: #a20b16;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+    margin: 10px 0;
+}
+
+.block-all {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 2px 5px -1px #d1d1d1;
+    -moz-box-shadow: 0 2px 5px -1px #d1d1d1;
+    -o-box-shadow: 0 2px 5px -1px #d1d1d1;
+    -webkit-box-shadow: 0 2px 5px -1px #d1d1d1;
+    margin-bottom: 15px;
+}
+
+.block-all .heblock {
+    border-bottom: 2px solid #d1d1d1;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    background: #23a7e5;
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+}
+
+.block-all .bodylock {
+    padding: 10px;
+}
+
+
+
+.hide-block {
+    display: none;
+}
+
+.show-block {
+    display: block;
+}
+
+.down-block {
+    cursor: pointer;
+}
+
+
+
+
+.form-horizontal .form-group {}
+
+.form-horizontal .control-label {
+    text-align: right;
+}
+
+.form-horizontal .form-control {
+    padding: 5px 15px;
+    background: #fff;
+    border: 1px solid #00c7c7;
+}
+
+.form-horizontal .form-control:focus {
+    box-shadow: 0 1px 10px #00c7c7;
+}
+
+.form-horizontal .btn-default {
+    background: #00c7c7;
+    border-color: transparent;
+    color: #fff;
+    margin-left: -45px;
+    border-radius: 0 4px 4px 0;
+}
+
+.form-horizontal .btn-default:hover {
+    background: #000;
+    border-color: transparent;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .form-horizontal .btn-default {
+        margin-left: -33px;
+    }
+}
+
+ul.mun-list {
+    padding: 0;
+    margin: 0;
+}
+
+ul.mun-list li {
+    color: #23a7e5;
+}
+
+
+.butns-all {
+    margin: 30px 0 50px 0;
+}
+
+
+
+footer {
+    background: #272934;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
